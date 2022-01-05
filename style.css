@@ -1,0 +1,76 @@
+body{
+    background:rgb(116, 151, 133); 
+    
+    font-family: 'Lusitana', serif;
+  
+    
+font-family: 'Lusitana', serif;
+  }
+  
+  
+  
+  #wrapper{
+    width: 1500px; 
+    margin: 700 auto;
+    
+  }
+  
+  
+  
+  #header{
+  position:relative;
+    height: 700px;
+    background-color: #ffffff; 
+    
+     margin-bottom: 5px;
+    border-radius: 3px;
+    box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+    font-size: 30px;
+  }
+  img{
+   margin: 0px 0 0 0;
+   width: 300px;
+  height: 407px;
+  border-radius: 10px;} 
+  h1{ 
+    justify-content: center;
+    color:#68667e;
+  }
+  
+  
+  
+  
+  
+  #content{ 
+    margin-bottom: 5px; 
+    width: 676px;
+    padding: 10px; 
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+    font-size: 28px;
+  }
+  
+   #footer{
+    height: 190px;
+    background-color: #ffffff; 
+    margin-bottom: 05px; 
+    border-radius: 05px; 
+    box-shadow: #32483580 0px 1px 3px; 
+    font-size: 25px;
+  }
+  
+  
+    .fon{
+      float:left;
+    margin:20px 0 0 20px;
+  }
+  .fax{ 
+    float:left;
+    margin:20px 0 0 60px;
+  }
+  .mail{ 
+    float:left;
+   margin:20px 0 0 60px;
+  }
+  

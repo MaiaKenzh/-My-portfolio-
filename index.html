@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="English">
+<head>
+<meta charset="utf-8" />
+<title>Web-Designer Maia-_-</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="wrapper"> 
+
+    <div id="header">
+
+      <h1>Novice web designer Mairam (＿ ＿*) Z z z</h1>
+      <p>• I am studying in college "ALATOO ATATURK" in the graphic designer department. There I do both logo design and web design. From time to time I pump the animation skill.</p>
+     <img src="./photo1641385356.jpeg" alt="">
+     <img src="./photo1641385365.jpeg">
+     <img src="./photo1641385356 (1).jpeg">
+     
+    </div>
+
+    <div id="content">
+
+
+        <h3>Lttle bit about me</h3>
+
+<p>Bonjour... (￣ヘ￣), My name is Mairam</p>
+
+<p>
+I am 16 y.o. AND
+I'm wimp | ͡ᵔ ﹏ ͡ᵔ |
+I like to play games when I'm free from routine chores.(I prefer arcade games and simulators, but mostly I look at the plot and elaboration of the game)
+I love reading fantasy books and comics, but sometimes I read serious detective stories and scientific documentaries.
+</p>
+<P>My nickname is "Maia Bee"</P>
+<h3>PROGRAMS SKILLS:</h3>
+<ul>
+    <br>• Adobe Photoshop 70%
+    <br>• Adobe Illustrator 75%
+    <br>• Adobe After Effects 63%
+</ul>
+<p>• • •</p>
+<h3>LIFE SKILLS:</h3>
+<p>
+<br> • Proffesional console game 75%
+<br> • Snowboarding 70%
+<br> • Drawing 58%
+<br> • Writing 80%
+</p>
+<p>• • •</p>
+<a href="https://www.behance.net/maiakenzh"> (╭☞•́⍛•̀)╭☞Click here and look at my Work</a>
+<a href="https://www.behance.net/gallery/133198355/my-personal-CV"></a>
+<p>( ・∀・)・・・ Some (many) of my works are related to aliens, as I prefer this topic and I hope you will like it too. </p>
+    </div>
+
+ 
+
+    <div id="footer">
+
+      <p class="fon"><strong>twitter:<br> @paradoxEden</strong> </p>
+      <p class="fax"><strong>instagram:<br> <a href="https://www.instagram.com/p.e.paradize/">p.e.paradize</a></strong></p>
+      <p class="mail"><strong>E-mail:<br>paradoxedenparadiso@gmail.com</strong></p>
+
+    </div>
+  </div>
+</body>
+</html>
+
+<h3 id="tema">BEE</h3>
+<br>
+<button onclick="changeDark()">ヘ（。□°）ヘ</button>
+<script>
+   function changeDark(){
+       document.getElementById("tema").innerHTML="BEE";
+       document.body.style.background="#2F3833";
+       document.getElementById("parag").style.color = "white";
+        }
+</script>
+
+<style>
+  #container {
+    width: 605px;
+    height:605px;
+    position: relative;
+    background: #c9df8d;}
+  #animate {
+  position: absolute;
+  background-image: url('./i.jpg');
+  background-repeat: no-repeat;
+  background-size:250px;    
+  width: 500px;
+  height: 500px;}
+  </style>
+  <button onclick="myMove()">╭☞Click</button>
+  <div id ="container">
+    <div id ="animate"></div>
+  </div>
+  
+  <script>
+      function myMove() {
+          var elem = document.getElementById("animate");
+          var pos = 0;
+          var id = setInterval(frame, 5);
+          function frame() {
+              if (pos == 350) { 
+                  clearInterval(id);
+              } else {
+                  pos++; 
+                  elem.style.top = pos + "px";
+                  elem.style.left = pos + "px";}}}
+                  
+
+
+  </script>
+
